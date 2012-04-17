@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.timpietrusky.leetedit.feature_1.0.0.201204172216.jar" id="de.timpietrusky.leetedit.feature" version="1.0.0.201204172216">
-      <category name="leet_edit"/>
+   <description name="LeetEdit" url="http://timpietrusky.github.com/lab/leetedit/update-site">
+      LeetEdit is an HTML editor for Eclipse RCP based on TinyMCE.
+   </description>
+   <feature url="features/de.timpietrusky.leetedit.feature_0.0.1.201204172237.jar" id="de.timpietrusky.leetedit.feature" version="0.0.1.201204172237">
+      <category name="new_category_1"/>
    </feature>
-   <category-def name="leet_edit" label="LeetEdit">
+   <category-def name="new_category_1" label="LeetEdit">
       <description>
-         *LeetEdit* is an HTML editor for Eclipse RCP based on TinyMCE.
+         LeetEdit is an HTML editor for Eclipse RCP based on TinyMCE.
       </description>
    </category-def>
 </site>
