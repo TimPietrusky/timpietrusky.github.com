@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.timpietrusky.leetedit.feature_1.0.0.201204172213.jar" id="de.timpietrusky.leetedit.feature" version="1.0.0.201204172213">
+   <feature url="features/de.timpietrusky.leetedit.feature_1.0.0.201204172216.jar" id="de.timpietrusky.leetedit.feature" version="1.0.0.201204172216">
       <category name="leet_edit"/>
    </feature>
    <category-def name="leet_edit" label="LeetEdit">
