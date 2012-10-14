@@ -75,7 +75,6 @@ section,
 footer {
   position:relative;
   padding:1em 3em;
-  overflow:hidden;
 }
 
 section:before {
@@ -84,7 +83,7 @@ section:before {
   text-align: right;
   z-index:-1;
   right:.5em;
-  top:.25em;
+  top:.1em;
   font: 10em 'icons';
   color: rgba(255, 255, 255, .2);
   text-shadow:0 0 2px (0, 0, 0, .6);
@@ -119,7 +118,7 @@ p {
   box-shadow:0 0 1em rgba(0, 0, 0, .5);
   transition:all .5s ease-in-out;
   animation: flash .45s 1 ease-in-out -.125s;
-  margin:0 1em 0 0;
+  margin:0 1em 1em 0;
 }
 
 @keyframes flash {
@@ -153,8 +152,8 @@ button {
 
   background-color: rgba(100, 100, 100, .5);
   border: none;
-  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-              inset 0 2px 0 hsla(0,0%,100%,.1),
+  box-shadow: 
+              0 0 1em rgba(0, 0, 0, .5),
               inset 0 -.2em 0 hsla(0,0%,100%,.1),
               inset 0 -.25em 0 hsla(0,0%,0%,.5),
               0 .25em .25em hsla(0,0%,0%,.1);
@@ -176,8 +175,7 @@ button:hover {
 
 button:hover,
 button:focus {
-  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-              inset 0 2px 0 hsla(0,0%,100%,.1),
+  box-shadow: 0 0 1em rgba(0, 0, 0, .5),
               inset 0 -.2em 0 hsla(0,0%,100%,.1),
               inset 0 -.25em 0 hsla(0,0%,0%,.5),
               inset 0 0 0 3em hsla(0,0%,100%,.2),
@@ -185,8 +183,7 @@ button:focus {
 }
 
 button:active {
-  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.25),
-              inset 0 2px 0 hsla(0,0%,100%,.1),
+  box-shadow: 0 0 1em rgba(0, 0, 0, .5),
               inset 0 0 0 3em hsla(0,0%,100%,.2),
               inset 0 .25em .5em hsla(0,0%,0%,.05),
               0 -1px 1px hsla(0,0%,0%,.1),
