@@ -103,7 +103,8 @@ section[role="highlight"] {
 }
 
 section[role="info"] {
-  margin:1em 0;
+  margin:.5em 0;
+  border-bottom:1em solid rgba(255, 255, 255, .05);
 }
 
 p {
@@ -114,9 +115,11 @@ p {
 }
 
 .alien-avatar {
+  float:left;
   box-shadow:0 0 1em rgba(0, 0, 0, .5);
   transition:all .5s ease-in-out;
   animation: flash .45s 1 ease-in-out -.125s;
+  margin:0 1em 0 0;
 }
 
 @keyframes flash {
@@ -141,9 +144,7 @@ p {
 }
 
 nav {
-  float:right;
-  background:none;
-  padding:1em 0;
+  float:left;
 }
 
 
