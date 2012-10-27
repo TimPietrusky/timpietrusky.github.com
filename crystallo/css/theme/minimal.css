@@ -89,7 +89,9 @@ body[data-theme='minimal'] {
     padding: 0 0; } }
 /* small screens */
 @media screen and (max-width: 44em) {
-  body[data-theme='minimal'] h1 {
-    font-size: 2.3em; }
-  body[data-theme='minimal'] section > div {
-    padding: .5em; } }
+  body[data-theme='minimal'] {
+    font-size: 1.8em; }
+    body[data-theme='minimal'] h1 {
+      font-size: 2.3em; }
+    body[data-theme='minimal'] section > div {
+      padding: .5em; } }
