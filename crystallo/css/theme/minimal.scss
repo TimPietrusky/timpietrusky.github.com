@@ -149,7 +149,7 @@ body[data-theme='minimal'] {
 @media screen and (max-width: 44em) {
   body[data-theme='minimal'] {
 
-    font-size: 1.8em;
+    font-size: 1.6em;
 
     h1 {
       font-size:2.3em;
@@ -157,6 +157,17 @@ body[data-theme='minimal'] {
 
     section > div {
       padding: .5em;
+    }
+  }
+}
+
+@media screen and (max-width: 66em) {
+  body[data-theme='minimal'] {
+
+    font-size: 1.6em;
+
+    h1 {
+      font-size:2.3em;
     }
   }
 }
