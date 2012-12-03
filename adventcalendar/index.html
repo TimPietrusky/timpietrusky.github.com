@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Advent Calendar of Useless Stuff</title>
+  
+  <meta charset="utf-8">
+  <meta name="author" content="Tim Pietrusky">
+  <meta name="robots" content="index,follow">
+  <meta name="revisit-after" content="1 days">
+  <meta name="description" content="Useless stuff all over the place... let Christmas begin!">
+
+  <meta property="og:title" content="Advent Calendar of Useless Stuff">
+  <meta property="og:description" content="Useless stuff all over the place... let Christmas begin!">
+  <meta property="og:image" content="http://timpietrusky.github.com/adventcalendar/img/adventcalendar.jpg">
+  <meta property="og:url" content="http://timpietrusky.github.com/adventcalendar">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/crystallo-min.css">
+  <link rel="stylesheet" href="css/adventcalendar.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="author" href="https://plus.google.com/u/0/112605782451035737058/posts">
+</head>
+
+<body data-max-width="1152" data-theme="adventcalendar" data-auto-extend="true" onload="init()">
+
+  <div class="output"></div>
+    
+  <article data-high="1">
+    <section data-cols="1">
+      <h1>Advent Calendar of Useless Stuff</h1>
+      <ul>
+        <li>Random position of the "doors"</li>
+        <li>Powered by <a href="http://backbonejs.org/" target="_blank">Backbone.js</a> and <a href="http://seb.ly/2010/11/javascript-html5-canvas-snow-in-3d/" target="_blank">Snow in 3D</a></li>
+        <li>and some cats...</li>
+      </ul>
+    </section>
+  </article>
+  
+
+  <article class="adventcalendar">
+    <section data-cols="5">
+    </section>
+  </article>
+  
+  <article data-high="2">
+    <section data-cols="1">
+      <div>
+        <footer>
+          <p>
+            <a href="#weloveiconfonts"><span class="iconicfill iconic-arrow-up"></span> top</a>
+          </p>
+
+          <hr>
+                              
+          <p>
+            <a href="https://github.com/TimPietrusky/adventcalendar" target="_blank">Fork me on GitHub. </a>
+          </p>
+
+          <p>Handcrafted 2012 by <a href="http://twitter.com/TimPietrusky" target="_blank">@TimPietrusky</a> in Germany.</p>
+        </footer>
+        <br>
+      </div>
+    </section>
+  </article>
+  
+  
+  <script id="doorTemplate" type="text/template">
+      <div>
+        <div class="number">
+          <%= date.getDate() %>
+        </div>
+      </div>
+      <div></div>
+  </script>
+
+  <script id="outputTemplate" type="text/template">
+      <div class="close" title="Fenster schliessen">
+        <span class="day"><%= number %></span>
+        <span class="typicons typicons-times"></span>
+      </div>
+      
+      <article>
+        <section data-cols="1">
+          <p>
+            <%= date.toLocaleDateString() %>
+          </p>
+          <h1><%= title %></h1>
+          <p>
+            <%= content %>
+          </p>
+        </section>
+      </article>
+  </script>
+
+  <script src="js/libs.js"></script>
+  <script src="js/main.js"></script>
+
+  
+  <script type="text/javascript" src="js/ThreeCanvas.js"></script>
+  <script type="text/javascript" src="js/Snow.js"></script>
+  <script type="text/javascript" src="js/startSnow.js"></script>
+</body>
+
+</html>
