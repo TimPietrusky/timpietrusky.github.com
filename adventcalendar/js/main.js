@@ -288,5 +288,4 @@
     $('article.adventcalendar section').append(calendarView.render().el);
 
     var outputView = new App.Views.Output();  
-
 })();
